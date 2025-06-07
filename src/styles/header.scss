@@ -50,12 +50,12 @@ $font-weight: 500;
   margin-left: 20px;
 }
 
-.header__nav-link--isActive {
+.header__nav-link.is-active {
   color: $primary-color;
   position: relative;
 }
 
-.header__nav-link--isActive::after {
+.header__nav-link.is-active::after {
   position: absolute;
   content: '';
   display: block;
